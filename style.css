@@ -40,7 +40,7 @@ p {
   grid-template-columns: repeat(6, 140px);
   grid-template-rows: repeat(2, calc(140px / 2 * 3));
   margin-top: 7%; 
-  margin-bottom: 12%;
+  margin-bottom: 13%;
 }
 
 .card {
