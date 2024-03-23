@@ -10,7 +10,7 @@ let dataToExport = [];
 let click_timestamp; 
 const gridSize = 6;
 
-//document.querySelector(".score").textContent = score;
+document.querySelector(".score").textContent = score;
 
 fetch("./data/cards.json")
   .then((res) => res.json())
@@ -77,11 +77,13 @@ function flipCard(index) {
   secondCard = this;
   secondCardIndex = index; 
   tries++; 
+  document.querySelector(".tries").textContent = tries;
   lockBoard = true;
 
   isMatch = checkForMatch();
   if (isMatch){
     score++;
+    document.querySelector(".score").textContent = score/2;
   }
   recordGameData(index, isMatch); 
 }
