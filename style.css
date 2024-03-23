@@ -21,10 +21,13 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5%;
 }
 
 .actions button {
-    padding: 8px 16px;
+    padding: 10px 16px;
+    margin-left: 20px;
     font-size: 30px;
     border-radius: 10px;
     background-color: #27ae60;
@@ -92,6 +95,7 @@ p {
 }
 
 .form-group {
+  margin-left: 6%;
   margin-bottom: 15px; /* Adjust this value to change the spacing between div elements */
   text-align: center;
   font-size: 25px;
