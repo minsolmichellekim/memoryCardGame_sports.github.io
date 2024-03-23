@@ -128,7 +128,7 @@ function disableCards() {
   secondCard.removeEventListener("click", flipCard);
 
   score++;
-  document.querySelector(".score").textContent = score;
+  //document.querySelector(".score").textContent = score;
 
   resetBoard();
 }
@@ -151,7 +151,7 @@ function restart() {
   resetBoard();
   shuffleCards();
   score = 0;
-  document.querySelector(".score").textContent = score;
+  //document.querySelector(".score").textContent = score;
   gridContainer.innerHTML = "";
   generateCards();
 }
