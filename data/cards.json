@@ -1,38 +1,50 @@
 [
     {
-        "image": "./assets/chili.png",
-        "name": "chili"
+        "image": "./assets/cycling.png",
+        "name": "cycling"
     },
     {
-        "image": "./assets/grapes.png",
-        "name": "grapes"
+        "image": "./assets/golf.png",
+        "name": "golf"
     },
     {
-        "image": "./assets/lemon.png",
-        "name": "lemon"
+        "image": "./assets/badminton.png",
+        "name": "badminton"
     },
     {
-        "image": "./assets/orange.png",
-        "name": "orange"
+        "image": "./assets/ice-skate.png",
+        "name": "ice-skate"
     },
     {
-        "image": "./assets/pineapple.png",
-        "name": "pineapple"
+        "image": "./assets/rugby-ball.png",
+        "name": "rugby-ball"
     },
     {
-        "image": "./assets/strawberry.png",
-        "name": "strawberry"
+        "image": "./assets/skateboard.png",
+        "name": "skateboard"
     },
     {
-        "image": "./assets/tomato.png",
-        "name": "tomato"
+        "image": "./assets/ski.png",
+        "name": "ski"
     },
     {
-        "image": "./assets/watermelon.png",
-        "name": "watermelon"
+        "image": "./assets/ballet.png",
+        "name": "ballet"
     },
     {
-        "image": "./assets/cherries.png",
-        "name": "cherries"
+        "image": "./assets/boxing.png",
+        "name": "boxing"
+    },
+    {
+        "image": "./assets/soccer-ball.png",
+        "name": "soccer-ball"
+    },
+    {
+        "image": "./assets/table-tennis.png",
+        "name": "table-tennis"
+    },
+    {
+        "image": "./assets/tennis.png",
+        "name": "tennis"
     }
 ]
