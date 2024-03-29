@@ -38,19 +38,19 @@ p {
   display: grid;
   justify-content: center;
   /*grid-gap: 50px;*/
-  row-gap: 30%; /* top/bottom gap */
+  row-gap: 5%; /* top/bottom gap */
   column-gap: 10%; /* left/right gap */
   grid-template-columns: repeat(6, 140px);
   grid-template-rows: repeat(3, calc(140px / 2 * 3));
   margin-top: 5%; 
   margin-bottom: 40%;
-  margin-left: -3%;
-  margin-right: -5%;
+  margin-left: 9%; /*-3*/
+  margin-right: 5%;/*-5*/
 }
 
 .card {
-  height: calc(100px / 2 * 3);
-  width: 100px;
+  height: calc(70px / 2 * 3);
+  width: 80px;
   border-radius: 10px;
   background-color: white;
   position: relative;
